@@ -24,6 +24,10 @@ class _BotCommands:
         self.WatchCommand = 'watch'
         self.TarWatchCommand = 'tarwatch'
         self.DeleteCommand = 'del'
-        self.UsageCommand = 'usage'
+        self.ConfigMenuCommand = 'config'
+        self.ShellCommand = 'shell'
+        self.UpdateCommand = 'update'
+        self.ExecHelpCommand = 'exechelp'
+        self.TsHelpCommand = 'tshelp'
 
 BotCommands = _BotCommands()
