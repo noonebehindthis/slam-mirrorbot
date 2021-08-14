@@ -1,5 +1,5 @@
-# Implement By - @anasty17 (https://github.com/breakdowns/slam-tg-mirror-bot/commit/0bfba523f095ab1dccad431d72561e0e002e7a59)
-# (c) https://github.com/breakdowns/slam-aria-mirror-bot
+# Implement By - @anasty17 (https://github.com/breakdowns/slam-mirrorbot/commit/0bfba523f095ab1dccad431d72561e0e002e7a59)
+# (c) https://github.com/breakdowns/slam-mirrorbot
 # All rights reserved
 
 import os
@@ -27,7 +27,7 @@ class qbittorrent:
 
 
     def __init__(self):
-        self.update_interval = 1.5
+        self.update_interval = 2
         self.meta_time = time.time()
 
     @new_thread
