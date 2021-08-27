@@ -1,5 +1,5 @@
-# Implement By - @anasty17 (https://github.com/breakdowns/slam-mirrorbot/commit/0bfba523f095ab1dccad431d72561e0e002e7a59)
-# (c) https://github.com/breakdowns/slam-mirrorbot
+# Implement By - @anasty17 (https://github.com/SlamDevs/slam-mirrorbot/commit/0bfba523f095ab1dccad431d72561e0e002e7a59)
+# (c) https://github.com/SlamDevs/slam-mirrorbot
 # All rights reserved
 
 from bot import DOWNLOAD_DIR, LOGGER, get_client
@@ -14,7 +14,6 @@ class QbDownloadStatus(Status):
         self.__gid = gid
         self.__hash = qbhash
         self.client = client
-        self.markup = None
         self.__uid = listener.uid
         self.listener = listener
         self.message = listener.message
